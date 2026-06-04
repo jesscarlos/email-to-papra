@@ -189,8 +189,10 @@ async function processEmails() {
         }
 
         connection.end();
+        process.exit(0);
     } catch (err) {
         console.error('IMAP Error:', err);
+        process.exit(1);
     }
 }
 
