@@ -1,12 +1,19 @@
 {
   "name": "email-to-papra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forwards emails and attachments from an IMAP inbox to Papra, routing by recipient address.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["email", "imap", "papra", "document-management", "pdf", "automation"],
+  "keywords": [
+    "email",
+    "imap",
+    "papra",
+    "document-management",
+    "pdf",
+    "automation"
+  ],
   "author": "Jess Carlos <yourfriend@jesscarlos.com>",
   "license": "ISC",
   "dependencies": {
